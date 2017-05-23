@@ -1,0 +1,22 @@
+Package: Artemis
+Title: Artemis package internal functions for ILO Statistics department ()
+Version: 1.0
+Date: 2017-05-15
+Authors@R: person("Bescond", "David", , "bescond@ilo.org", role = c("aut", "cre"))
+URL: https://github.com/dbescond/Artemis
+BugReports: https://github.com/dbescond/Artemis/issues
+Description: Data Visualisation
+Depends:
+    R (>= 3.2.1)
+Imports:
+    xml2,
+    plyr,
+    dplyr,
+    stringr
+Suggests:
+    shiny,
+    shinydashboard,
+    DT,
+    doSNOW
+License: MIT
+RoxygenNote: 5.0.1
